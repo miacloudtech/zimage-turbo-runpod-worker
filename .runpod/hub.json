@@ -1,0 +1,9 @@
+{
+  "name": "zimage-turbo-runpod-worker",
+  "category": "image",
+  "description": "RunPod Serverless worker for Tongyi-MAI/Z-Image-Turbo",
+  "type": "serverless",
+  "handler": "handler.py",
+  "gpuIds": "ADA_24,ADA_48_PRO,AMPERE_48",
+  "containerDiskInGb": 30
+}
